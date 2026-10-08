@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LeanOps — Pilot Scope & Margin Guard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+<header><div class="brand"><div class="mark">L</div><div><b>LeanOps</b><span>Pilot Scope & Margin Guard</span></div></div><div class="status">● Local-first demo</div></header>
+<main>
+<section class="hero"><p class="eyebrow">For founder-led AI teams</p><h1>Know what a pilot will cost <em>before</em> you agree to it.</h1><p>Paste a client brief or statement of work. LeanOps turns it into delivery scope, support obligations, staffing triggers and a commercial safety check.</p></section>
+<section class="grid">
+<div class="panel">
+<div class="head"><div><p class="eyebrow">01 · Client input</p><h2>Paste the opportunity</h2></div><button id="demo" class="ghost">Load demo</button></div>
+<textarea id="brief" placeholder="12-week pilot. Integrate with two systems. Business-hours support. Optional 24/7 incident response..."></textarea>
+<div class="inputs"><label>Contract value (€)<input id="value" type="number" value="25000"></label><label>Internal hourly cost (€)<input id="hourly" type="number" value="45"></label></div>
+<button id="analyze" class="primary">Analyze pilot</button>
+</div>
+<div class="panel">
+<div class="head"><div><p class="eyebrow">02 · Decision view</p><h2>Commercial guardrails</h2></div><span id="verdict" class="badge">Waiting</span></div>
+<div class="scores"><div><small>Scope risk</small><strong id="risk">—</strong></div><div><small>Effort</small><strong id="effort">—</strong></div><div><small>Margin</small><strong id="margin">—</strong></div></div>
+<h3>Detected obligations</h3><div id="obligations" class="chips"><span class="muted">Nothing detected yet.</span></div>
+<h3>Staffing triggers</h3><div id="triggers" class="list"><span class="muted">Analyze a brief to see subcontracting triggers.</span></div>
+<h3>Recommended delivery shape</h3><pre id="plan">No delivery plan yet.</pre>
+<div class="actions"><button id="copy" class="ghost" disabled>Copy summary</button><button id="download" class="ghost" disabled>Download JSON</button></div>
+</div>
+</section>
+<section class="pricing"><div><p class="eyebrow">Monetization</p><h2>Built for recurring SaaS revenue</h2><p>Start free. Upgrade when you manage multiple pilots or shared review policies.</p></div><div class="tiers"><div><span>Free</span><b>€0</b><small>3 analyses/mo</small></div><div class="featured"><span>Pro</span><b>€29</b><small>Unlimited solo</small></div><div><span>Team</span><b>€99</b><small>Policies + teams</small></div></div></section>
+</main>
+<footer>Built for Galuxium Nexus V2 · 2026 <span>Privacy-first · Browser-only demo</span></footer>
+</div>
+<script src="app.js"></script>
+</body></html>
